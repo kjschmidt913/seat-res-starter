@@ -1,3 +1,17 @@
+/** {
+  border: 1px solid black;
+}*/
+
+.hiden {
+  font-size: 14px;
+  color: green;
+}
+
+.ppp {
+  content:'taken!';
+  color: black;
+}
+
 .seat-chart {
   width: 90%;
   margin: 0 auto;
@@ -5,16 +19,27 @@
 
 .available {
   background-color: green;
-  width: 24%;
-  margin: auto;
+  width: 20%;
+  margin: 1%;
   min-height: 100px;
   display: inline-block;
 }
 
 .reserved {
   background-color: red;
-  width: 24%;
-  margin: auto;
+  width: 20%;
+  margin: 1%;
   min-height: 100px;
   display: inline-block;
+}
+
+.reserved:after {
+  content:'hiya';
+  text-align: center;
+  margin-top: 50px;
+}
+
+.available:hover {
+  background-color: lightgreen;
+  color: red;
 }
