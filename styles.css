@@ -1,45 +1,76 @@
-/** {
-  border: 1px solid black;
-}*/
 
-.hiden {
-  font-size: 14px;
-  color: green;
-}
-
-.ppp {
-  content:'taken!';
-  color: black;
-}
+/* Jonathon */
+/* 02/06 - i set the width of the divs to 15% rather than 24.
+and i changed their background color because that default red and 
+green was too bright */
 
 .seat-chart {
   width: 90%;
   margin: 0 auto;
 }
 
-.available {
-  background-color: green;
-  width: 20%;
-  margin: 1%;
+
+/* Edwin
+Added content into the classes rather than HTML because allegedly
+ the seats are to be generated using Javascript later on. Added border-radius
+ and top/bottom margins. Also made a hover effect.
+
+ There are thumbs up and thumbs down hover effects that I have in comments below,
+ but they are a little clunky. Check them out if you guys like them. Line 57 and 65. */
+
+ .available {
+  border-radius:20px;/*Edwin CSS */
+  background-color: #52bb37;
+  width: 15%;
+  margin: 5px auto;/*Edwin CSS */
   min-height: 100px;
   display: inline-block;
 }
 
 .reserved {
-  background-color: red;
-  width: 20%;
-  margin: 1%;
+  border-radius:20px;/*Edwin CSS */
+  background-color: #ea1212;
+  width: 15%;
+  margin: 5px auto;/*Edwin CSS */
   min-height: 100px;
   display: inline-block;
+  }
+/*Edwin CSS */
+.available:before {
+  content: 'Available';
+  color: darkgreen;
+  padding-left: 37px;
+  font-size:20px;
 }
-
+/*Edwin CSS */
 .reserved:after {
-  content:'hiya';
-  text-align: center;
-  margin-top: 50px;
+  content: 'Not Available';
+  color: darkred;
+  font-size: 20px;
+  padding-left: 18px;
 }
-
+/*Edwin CSS */
 .available:hover {
   background-color: lightgreen;
-  color: red;
+  border-radius: 50px;
+  display: inline-block;
+/*  content: url('https://openclipart.org/image/2400px/svg_to_png/214028/Thumbs-Up-Circle.png');*/
 }
+
+/*Edwin CSS */
+.reserved:hover {
+  background-color: pink;
+  border-radius: 0px;
+  display: inline-block;
+ /* content: url('https://openclipart.org/image/2400px/svg_to_png/214030/Thumbs-Down-Circle.png');*/
+}
+
+/* before you write your css please use comments 
+to show start and end so we can keep our code in a modular form
+also try not to overwrite someone elses style :) */
+
+/* Christopher */
+
+  /* my css will go in this area */
+
+/* end */
