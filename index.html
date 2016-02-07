@@ -51,21 +51,31 @@
 
   <!-- Input form by: Christopher -->
   <section>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <form>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-xs-12 input-field">
             <h3>Name</h3>
-            <input>
-            <h3>Number of Seats</h3>
-            <input>
+            <input type="text">
+            <h3> Seats Selected </h3>
+            <p> Row: AAA Seat(s): 1,2,3 </p>
             <h3>Reservation Date</h3>
-            <input>
-            <button>Reserve</button>
+            <input type="date">
+            <button id="reserve-btn"><span class="glyphicon glyphicon-ok"></span></button>
           </div>
-          <div class="col-sm-8">
+          <div class="col-sm-4 col-xs-6 message-div">
             <h3>Special Accomodations</h3>
-            <textarea cols="50" rows="9"></textarea>
+            <textarea rows="9"></textarea>
+          </div>
+          <div class="col-sm-4 col-xs-6 reservation">
+            <h3>Reservation Policy</h3>
+            <ul>
+              <li> Some stupid rule #1 </li>
+              <li> Some stupid rule #2 </li>
+              <li> Some stupid rule #3 </li>
+              <li> Some stupid rule #4 </li>
+              <li> Some stupid rule #5 </li>
+            </ul>
           </div>
         </form>
       </div>

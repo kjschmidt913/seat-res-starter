@@ -71,6 +71,23 @@ also try not to overwrite someone elses style :) */
 
 /* Christopher */
 
-  /* my css will go in this area */
+#reserve-btn {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #52bb37;
+  color: #ffffff;
+}
+
+.input-field {
+  padding-left: 5%;
+}
+
+.message-div {
+  padding-right: 6%;
+}
+
+textarea {
+  width: 100%;
+}
 
 /* end */
