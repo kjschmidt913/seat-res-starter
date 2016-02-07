@@ -24,6 +24,7 @@ footer {
 }
 
 
+
 /* Jonathon */
 /* 02/06 - i set the width of the divs to 15% rather than 24.
 and i changed their background color because that default red and 
@@ -116,3 +117,19 @@ textarea {
 }
 
 /* end */
+
+/* Media Query added by KJ */
+@media only screen and (max-width : 900px) {
+  .title {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 2em;
+  }
+
+
+
+
+
+
+
+
