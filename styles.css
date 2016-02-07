@@ -36,7 +36,7 @@ green was too bright */
 
 
 /* Edwin
-Added content into the classes rather than HTML because allegedly
+ Added content into the classes rather than HTML because allegedly
  the seats are to be generated using Javascript later on. Added border-radius
  and top/bottom margins. Also made a hover effect.
 
@@ -44,32 +44,32 @@ Added content into the classes rather than HTML because allegedly
  but they are a little clunky. Check them out if you guys like them. Line 57 and 65. */
 
  .available {
-  border-radius:20px;/*Edwin CSS */
+  border-radius:20px; /*Edwin CSS */
   background-color: #52bb37;
   width: 15%;
-  margin: 5px auto;/*Edwin CSS */
+  margin: 5px auto; /*Edwin CSS */
   min-height: 100px;
   display: inline-block;
 }
 
 .reserved {
-  border-radius:20px;/*Edwin CSS */
+  border-radius:20px; /*Edwin CSS */
   background-color: #ea1212;
   width: 15%;
-  margin: 5px auto;/*Edwin CSS */
+  margin: 5px auto; /*Edwin CSS */
   min-height: 100px;
   display: inline-block;
   }
 /*Edwin CSS */
 .available:before {
-  content: 'Available';
+/*content: 'Available'; */  
   color: darkgreen;
   padding-left: 37px;
   font-size:20px;
 }
 /*Edwin CSS */
 .reserved:after {
-  content: 'Not Available';
+/*content: 'Not Available'; */  
   color: darkred;
   font-size: 20px;
   padding-left: 18px;
@@ -79,16 +79,16 @@ Added content into the classes rather than HTML because allegedly
   background-color: lightgreen;
   border-radius: 50px;
   display: inline-block;
-/*  content: url('https://openclipart.org/image/2400px/svg_to_png/214028/Thumbs-Up-Circle.png');*/
-}
+/*content: url('https://openclipart.org/image/2400px/svg_to_png/214028/Thumbs-Up-Circle.png');
+*/}
 
 /*Edwin CSS */
 .reserved:hover {
   background-color: pink;
   border-radius: 0px;
   display: inline-block;
- /* content: url('https://openclipart.org/image/2400px/svg_to_png/214030/Thumbs-Down-Circle.png');*/
-}
+/*  content: url('https://openclipart.org/image/2400px/svg_to_png/214030/Thumbs-Down-Circle.png');
+*/}
 
 /* before you write your css please use comments 
 to show start and end so we can keep our code in a modular form
