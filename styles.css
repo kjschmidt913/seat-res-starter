@@ -1,3 +1,28 @@
+/* KJ */
+/* I used relative positioning here to make the title look like it was being
+projected by the camera/lining up nicely with the logo. I tried margin and
+padding at first, but for some reason, it wasn't responding to anything higher
+than 5% or 3em...I can revisit this later if the relative positioning gets weird. */
+.title {
+  display: inline;
+  position: relative;
+  top: 0.6em
+}
+
+footer {
+  margin:5%;
+}
+
+#footerLinks {
+  display:inline;
+  word-spacing: 2em;
+  padding-left: 2em;
+}
+
+#copyrightInfo {
+  display:inline;
+}
+
 
 /* Jonathon */
 /* 02/06 - i set the width of the divs to 15% rather than 24.
