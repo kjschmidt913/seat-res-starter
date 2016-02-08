@@ -40,13 +40,13 @@ Added content into the classes rather than HTML because allegedly
   content: 'Available';
   color: darkgreen;
   padding-left: 37px;
-  font-size:20px;
+  font-size:5px;
 }
 /*Edwin CSS */
 .reserved:after {
   content: 'Not Available';
   color: darkred;
-  font-size: 20px;
+  font-size: 5px;
   padding-left: 18px;
 }
 /*Edwin CSS */
