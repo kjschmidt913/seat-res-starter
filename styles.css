@@ -1,3 +1,29 @@
+/* KJ */
+/* I used relative positioning here to make the title look like it was being
+projected by the camera/lining up nicely with the logo. I tried margin and
+padding at first, but for some reason, it wasn't responding to anything higher
+than 5% or 3em...I can revisit this later if the relative positioning gets weird. */
+.title {
+  display: inline;
+  position: relative;
+  top: 0.6em
+}
+
+footer {
+  margin:5%;
+}
+
+#footerLinks {
+  display:inline;
+  word-spacing: 2em;
+  padding-left: 2em;
+}
+
+#copyrightInfo {
+  display:inline;
+}
+
+
 
 /* Jonathon */
 /* 02/06 - i set the width of the divs to 15% rather than 24.
@@ -11,7 +37,7 @@ green was too bright */
 
 
 /* Edwin
-Added content into the classes rather than HTML because allegedly
+ Added content into the classes rather than HTML because allegedly
  the seats are to be generated using Javascript later on. Added border-radius
  and top/bottom margins. Also made a hover effect.
 
@@ -19,32 +45,32 @@ Added content into the classes rather than HTML because allegedly
  but they are a little clunky. Check them out if you guys like them. Line 57 and 65. */
 
  .available {
-  border-radius:20px;/*Edwin CSS */
+  border-radius:20px; /*Edwin CSS */
   background-color: #52bb37;
   width: 15%;
-  margin: 5px auto;/*Edwin CSS */
+  margin: 5px auto; /*Edwin CSS */
   min-height: 100px;
   display: inline-block;
 }
 
 .reserved {
-  border-radius:20px;/*Edwin CSS */
+  border-radius:20px; /*Edwin CSS */
   background-color: #ea1212;
   width: 15%;
-  margin: 5px auto;/*Edwin CSS */
+  margin: 5px auto; /*Edwin CSS */
   min-height: 100px;
   display: inline-block;
   }
 /*Edwin CSS */
 .available:before {
-  content: 'Available';
+/*content: 'Available'; */  
   color: darkgreen;
   padding-left: 37px;
   font-size:5px;
 }
 /*Edwin CSS */
 .reserved:after {
-  content: 'Not Available';
+/*content: 'Not Available'; */  
   color: darkred;
   font-size: 5px;
   padding-left: 18px;
@@ -54,16 +80,16 @@ Added content into the classes rather than HTML because allegedly
   background-color: lightgreen;
   border-radius: 50px;
   display: inline-block;
-/*  content: url('https://openclipart.org/image/2400px/svg_to_png/214028/Thumbs-Up-Circle.png');*/
-}
+/*content: url('https://openclipart.org/image/2400px/svg_to_png/214028/Thumbs-Up-Circle.png');
+*/}
 
 /*Edwin CSS */
 .reserved:hover {
   background-color: pink;
   border-radius: 0px;
   display: inline-block;
- /* content: url('https://openclipart.org/image/2400px/svg_to_png/214030/Thumbs-Down-Circle.png');*/
-}
+/*  content: url('https://openclipart.org/image/2400px/svg_to_png/214030/Thumbs-Down-Circle.png');
+*/}
 
 /* before you write your css please use comments 
 to show start and end so we can keep our code in a modular form
@@ -71,6 +97,39 @@ also try not to overwrite someone elses style :) */
 
 /* Christopher */
 
-  /* my css will go in this area */
+#reserve-btn {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #52bb37;
+  color: #ffffff;
+}
+
+.input-field {
+  padding-left: 5%;
+}
+
+.message-div {
+  padding-right: 6%;
+}
+
+textarea {
+  width: 100%;
+}
 
 /* end */
+
+/* Media Query added by KJ */
+@media only screen and (max-width : 900px) {
+  .title {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 2em;
+  }
+
+
+
+
+
+
+
+
