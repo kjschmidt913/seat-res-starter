@@ -51,6 +51,7 @@ green was too bright */
   margin: 5px auto; /*Edwin CSS */
   min-height: 100px;
   display: inline-block;
+  text-align: center;
 }
 
 .reserved {
