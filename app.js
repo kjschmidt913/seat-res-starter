@@ -16,7 +16,7 @@ $(function(){
 	for(var i=1; i<=24; i++){
 		seatNumber.push(i);
 		$(".seat-chart").append(function(){
-			return "<div class='available'><h3>" + i + "</h3></div>";
+			return "<div class='available col-xs-2'><h3>" + i + "</h3></div>";
 		})
 	}
 
