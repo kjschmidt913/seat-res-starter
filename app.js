@@ -1,5 +1,18 @@
 $(function(){
+
+	var Person = function(){
+
+		 this.name = $('#nameInput').val();
+		 this.seats = $('#selectedSeat').text();
+		 this.date = $('#dateInput').val();
+		 this.message = $('#messageInput').val();
+
+	}
+
+	var button = $('#reserve-btn');
+
 	var seatNumber = [];
+
 	for(var i=1; i<=24; i++){
 		seatNumber.push(i);
 		$(".seat-chart").append(function(){
@@ -7,7 +20,8 @@ $(function(){
 		})
 	}
 
-			var seatArray = [];
+	var seatArray = [];
+
 	$(".available").on("click", function(){
 
 		var self = this;
@@ -40,6 +54,20 @@ $(function(){
 
 	});
 
+	button.on('click', function() {
+
+		var guest = new Person();
+
+		$('#nameInput').val('');
+		$('#selectedSeat').val('');
+		$('#dateInput').val('');
+		$('#messageInput').val('');
+		
+	});
 })
+
+
+
+
 
 
