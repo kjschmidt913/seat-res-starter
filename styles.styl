@@ -1,0 +1,74 @@
+.title
+  display inline
+  position relative
+  top 0.6em
+
+footer
+  margin 5%
+
+#footerLinks
+  display inline
+  word-spacing 2em
+  padding-left 2em
+
+#copyrightInfo
+  display inline
+
+.seat-chart
+  width 90%
+  margin 0 auto
+
+.available
+  border-radius 20px
+  background-color #52bb37
+  width 15%
+  margin 5px auto
+  min-height 100px
+  display inline-block
+  text-align center
+  &:before
+    color darkgreen
+    padding-left 37px
+    font-size 5px
+  &:hover
+    background-color lightgreen
+    border-radius 50px
+    display inline-block
+
+.reserved
+  border-radius 20px
+  background-color #ea1212
+  width 15%
+  margin 5px auto
+  min-height 100px
+  display inline-block
+  &:after
+    color darkred
+    font-size 5px
+    padding-left 18px
+  &:hover
+    background-color pink
+    border-radius 0px
+    display inline-block
+
+#reserve-btn
+  border 1px solid #000000
+  border-radius 5px
+  background-color #52bb37
+  color #ffffff
+
+.input-field
+  padding-left 5%
+
+.message-div
+  padding-right 6%
+
+textarea
+  width 100%
+
+@media only screen and (max-width : 900px)
+  .title
+    display block
+    margin-top 0em
+    margin-bottom 2em
+
