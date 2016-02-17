@@ -40,7 +40,6 @@ green was too bright */
  Added content into the classes rather than HTML because allegedly
  the seats are to be generated using Javascript later on. Added border-radius
  and top/bottom margins. Also made a hover effect.
-
  There are thumbs up and thumbs down hover effects that I have in comments below,
  but they are a little clunky. Check them out if you guys like them. Line 57 and 65. */
 
@@ -126,11 +125,3 @@ textarea {
     margin-top: 0em;
     margin-bottom: 2em;
   }
-
-
-
-
-
-
-
-
