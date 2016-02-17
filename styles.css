@@ -18,6 +18,9 @@ footer {
   width: 90%;
   margin: 0 auto;
 }
+#point {
+  vertical-align: text-bottom;
+}
 .available {
   border-radius: 20px;
   background-color: #3498db;
