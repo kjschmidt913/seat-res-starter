@@ -24,16 +24,16 @@
         <form>
           <div class="col-sm-4 col-xs-12 input-field">
             <h3>Name</h3>
-            <input type="text">
+            <input type="text" id="nameInput">
             <h3> Seats Selected </h3>
             <p id="selectedSeat">  </p>
-            <h3>Reservation Date</h3>
-            <input type="date">
-            <button id="reserve-btn"><span class="glyphicon glyphicon-ok"></span></button>
+            <h3 id="seatNumbers">Reservation Date</h3>
+            <input type="date" id="dateInput">
+            <button id="reserve-btn" type="button"><span class="glyphicon glyphicon-ok"></span></button>
           </div>
           <div class="col-sm-4 col-xs-6 message-div">
             <h3>Special Accomodations</h3>
-            <textarea rows="9"></textarea>
+            <textarea id="messageInput" rows="9"></textarea>
           </div>
           <div class="col-sm-4 col-xs-6 reservation">
             <h3>Reservation Policy</h3>
