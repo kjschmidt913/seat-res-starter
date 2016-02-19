@@ -1,9 +1,9 @@
 .navbar {
   background-color: #01014f;
-  margin-bottom: 0;
+  margin-bottom: 1.5%;
 }
-#name:hover {
-  color: #ffffff;
+.navbar-brand a:hover {
+  color: #000;
 }
 .navbar a {
   border-radius: 15%;
