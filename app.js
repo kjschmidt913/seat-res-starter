@@ -57,11 +57,27 @@ $(function(){
 	button.on('click', function() {
 
 		var guest = new Person();
+		$('.seat-chart').children().each(function() {
+			if ($(this).hasClass('reserved')){
+				$(this).removeClass('available reserved');
+				$(this).addClass('unavailable');
+				$(this).text('Unavailable. Mouse Over for Details')
+				$(this).hover(function() {
+					$(this).text('Reserved By:' + guest.name + ' on ' +guest.date);
+				}, function() {
+					$(this).text('Unavailable. Mouse Over for Details');
+
+				});
+				}
+			})	
+		
+
 
 		$('#nameInput').val('');
-		$('#selectedSeat').val('');
+		$('#selectedSeat').text('');
 		$('#dateInput').val('');
 		$('#messageInput').val('');
+		seatArray =[];
 		
 	});
 })
