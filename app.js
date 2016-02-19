@@ -82,8 +82,8 @@ $(function(){
 	});
 })
 
-//hi
-console.log('hello');
+//hi, KJ Smells
+console.log('hello I am reptar. Man of Bingo!!!!');
 
 
 
